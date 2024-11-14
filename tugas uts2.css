@@ -1,0 +1,32 @@
+/* Mengatur margin atas untuk konten utama agar tidak tertutup navbar */
+.main-content {
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Mengatur tampilan teks di halaman */
+h1 {
+    color: #333;
+    font-size: 28px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Mengubah warna tombol navbar */
+.navbar-brand {
+    color: #ffc107 !important;
+}
+
+/* Mengubah tampilan tombol pencarian */
+.form-control {
+    border-radius: 0.25rem;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}

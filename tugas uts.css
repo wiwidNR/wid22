@@ -1,0 +1,86 @@
+/* Mengatur tampilan seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f3f3f3;
+    flex-direction: column;
+}
+
+/* Styling untuk navbar agar terlihat rapi */
+.navbar {
+    width: 100%;
+    background-color: #e9ecef; /* Warna latar belakang navbar */
+    padding: 1rem; /* Spasi dalam navbar */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+/* Styling untuk kontainer login */
+.login-container {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px; /* Menjauhkan dari navbar */
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Styling untuk input, select, dan button dalam form */
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}
+
+/* Styling untuk radio button */
+.login-container .user-type {
+    margin: 8px 0;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* Styling untuk link daftar */
+.login-container p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-container p a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.login-container p a:hover {
+    text-decoration: underline;
+}
